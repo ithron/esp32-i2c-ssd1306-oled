@@ -1,11 +1,11 @@
 set(COMPONENT_SRCS
-  font_glcd_5x7.c
-  font_tahoma_8pt.c
-  fonts.c
-  i2c.cpp
-  ssd1306.cpp
+  main/font_glcd_5x7.c
+  main/font_tahoma_8pt.c
+  main/fonts.c
+  main/i2c.cpp
+  main/ssd1306.cpp
 )
-set(COMPONENT_ADD_INCLUDEDIRS "include")
+set(COMPONENT_ADD_INCLUDEDIRS "main/include")
 
 register_component()
 
